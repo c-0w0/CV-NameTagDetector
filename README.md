@@ -1,11 +1,12 @@
-# Prototype1: Mask & Contour
+<img width="285" height="243" alt="image" src="https://github.com/user-attachments/assets/ce5506f4-90e8-426e-8bc6-42d661627f07" /># Prototype1: Mask & Contour
 ## Introduction
 The initial idea of this prototype was to find black area enclosed by white area.
 This prototype started with the image cropped from the pdf file (passed), then moved to video processing (failed, probably due to blurry video).
 
 ## Assumption
 1.	The name tag has a ratio of 4:1 (considering only the black keys area to the white key area), making it a criterion for filtering the candidate (overlap region of masks/contours).
-2.	
+   <img width="285" height="243" alt="image" src="https://github.com/user-attachments/assets/d0e16f30-c111-4ba7-b174-6266bdcc2830" />
+
 ## Workflow
 1.	The program started by defining the HSV color ranges (upper_limit, lower_limit) for the black and white color.
 2.	2 masks were created, namely ‘black_mask’ and ‘white_mask’, they detect black and white regions respectively.
