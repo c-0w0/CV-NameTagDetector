@@ -1,4 +1,3 @@
-<img width="285" height="243" alt="image" src="https://github.com/user-attachments/assets/ce5506f4-90e8-426e-8bc6-42d661627f07" /># Prototype1: Mask & Contour
 ## Introduction
 The initial idea of this prototype was to find black area enclosed by white area.
 This prototype started with the image cropped from the pdf file (passed), then moved to video processing (failed, probably due to blurry video).
