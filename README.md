@@ -1,4 +1,7 @@
 ## Introduction
+This project is to find the name tag `data/NameTag0.png` in the video `data/sample.mp4`.
+
+# Prototype1: Masks and Contours
 The initial idea of this prototype was to find black area enclosed by white area.
 This prototype started with the image cropped from the pdf file (passed), then moved to video processing (failed, probably due to blurry video).
 
@@ -14,7 +17,6 @@ This prototype started with the image cropped from the pdf file (passed), then m
 5.	Then, the passed regions are being tagged with their x, and y coordinates.
 
 # Prototype2: YOLO
-## Introduction
 The idea of this prototype is to train the YOLO using annotated images.
 
 ## Workflow
@@ -29,3 +31,5 @@ The idea of this prototype is to train the YOLO using annotated images.
 ## Known issue
 1.	Data leakage / Overfitting
 Due to the training images used originated from the video itself. This will lead to overfitting of the model, as the model has pre-seen the result when the sample.mp4 is being used to test it.
+
+# Idea3: Template Matching ---Not implemented---
