@@ -30,6 +30,7 @@ The idea of this prototype is to train the YOLO using annotated images.
 
 ## Known issue
 1.	Data leakage / Overfitting
-Due to the training images used originated from the video itself. This will lead to overfitting of the model, as the model has pre-seen the result when the sample.mp4 is being used to test it.
+
+  	Due to the training images used originated from the video itself. This will lead to overfitting of the model, as the model has pre-seen the result when the sample.mp4 is being used to test it.
 
 # Idea3: Template Matching ---Not implemented---
